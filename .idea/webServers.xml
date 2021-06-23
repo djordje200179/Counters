@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="802203fd-a909-4dad-9490-d5e141b23c53" name="Pi Zero">
+        <fileTransfer rootFolder="/home/pi" accessType="SFTP" host="192.168.1.26" port="22" sshConfigId="3027790f-6790-4b3b-afd6-837d9dace2bd" sshConfig="Pi Zero" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="069cfb3b-0718-41a3-a20f-b5451f52d44f" name="Ubuntu">
+        <fileTransfer rootFolder="/home/djordje200179" accessType="SFTP" host="localhost" port="2222" sshConfigId="adb853cb-1415-4f44-9bb9-1e435353975e" sshConfig="Ubuntu">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
