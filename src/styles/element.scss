@@ -1,0 +1,34 @@
+$counterWidth: 280px;
+$counterHeight: 190px;
+
+$titleColor: white;
+$titleWeight: bold;
+$titleFontSize: 19px;
+
+.counter {
+	width: $counterWidth;
+	height: $counterHeight;
+}
+
+.title {
+	background: none;
+	border: none;
+	cursor: pointer;
+	height: 50px;
+	width: $counterWidth - 10;
+	font-size: $titleFontSize;
+	color: $titleColor;
+	font-weight: $titleWeight;
+}
+
+.titleEdit {
+	background-color: inherit;
+	color: $titleColor;
+	font-weight: $titleWeight;
+	border: 0 none transparent;
+	width: $counterWidth - 35px;
+	height: 38px;
+	font-size: $titleFontSize;
+	text-align: center;
+	box-sizing: content-box;
+}
